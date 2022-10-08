@@ -1,0 +1,12 @@
+unit Classe.Administrativo;
+
+interface
+
+uses
+  Classe.Pessoa;
+type
+  TAdministrativo = class(TPessoa)
+
+implementation
+
+end.

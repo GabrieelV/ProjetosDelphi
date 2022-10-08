@@ -1,0 +1,15 @@
+unit Classe.Pessoa;
+
+interface
+
+type
+  TPessoa = class
+  public
+    property Nome : String;
+    property Funcao : String;
+    property Salario : String;
+  end;
+
+implementation
+
+end.

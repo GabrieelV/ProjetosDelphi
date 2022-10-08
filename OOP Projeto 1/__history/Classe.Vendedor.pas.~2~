@@ -1,0 +1,14 @@
+unit Classe.Vendedor;
+
+interface
+
+uses
+  Classe.Pessoa;
+type
+  TVendedor : class(Pessoa)
+
+  end;
+
+implementation
+
+end.

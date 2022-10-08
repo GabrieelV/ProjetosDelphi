@@ -1,0 +1,15 @@
+unit Classe.Vendedor;
+
+interface
+
+uses
+  Classe.Pessoa;
+type
+  TVendedor = class(TPessoa)
+  public
+    property Comissao : Currency;
+  end;
+
+implementation
+
+end.
