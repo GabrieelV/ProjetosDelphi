@@ -92,6 +92,7 @@ object Form1: TForm1
     Height = 25
     Caption = '<<'
     TabOrder = 5
+    OnClick = Button2Click
   end
   object Button3: TButton
     Left = 457
@@ -100,6 +101,7 @@ object Form1: TForm1
     Height = 25
     Caption = '>>'
     TabOrder = 6
+    OnClick = Button3Click
   end
   object Memo1: TMemo
     Left = 8
@@ -113,7 +115,8 @@ object Form1: TForm1
     Top = 80
     Width = 91
     Height = 25
-    Caption = 'Calcular Sal'#225'rio'
+    Caption = 'Calcular Sal'#225'rios'
     TabOrder = 8
+    OnClick = Button4Click
   end
 end

@@ -18,11 +18,17 @@ type
     property Nome : String read FNome write SetNome;
     property Funcao : String read FFuncao write SetFuncao;
     property Salario : Currency read FSalario write SetSalario;
+    function calcularSalario : Currency; virtual;
   end;
 
 implementation
 
 { TPessoa }
+
+function TPessoa.calcularSalario: Currency;
+begin
+  Result := Salario;
+end;
 
 procedure TPessoa.SetFuncao(const Value: String);
 begin
