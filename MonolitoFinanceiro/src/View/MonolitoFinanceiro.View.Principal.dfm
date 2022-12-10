@@ -7,20 +7,25 @@ object frmPrincipal: TfrmPrincipal
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -11
+  Font.Height = -13
   Font.Name = 'Tahoma'
   Font.Style = []
   Menu = MainMenu1
   OldCreateOrder = False
   Position = poScreenCenter
   WindowState = wsMaximized
+  OnCreate = FormCreate
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object MainMenu1: TMainMenu
     Left = 16
     Top = 40
     object mnuCadastro: TMenuItem
       Caption = 'Cadastros'
+      object mnuCadastroPadrao: TMenuItem
+        Caption = 'Cadastro Padrao'
+        OnClick = mnuCadastroPadraoClick
+      end
     end
     object mnuRelatorios: TMenuItem
       Caption = 'Relat'#243'rios'
